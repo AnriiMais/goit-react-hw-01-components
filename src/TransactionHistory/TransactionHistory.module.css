@@ -1,11 +1,4 @@
-.list {
-  padding: 10px;
-  text-align: left;
-  border: 1px solid grey;
-  text-align: center;
-}
-
-.table {
+.transactionTable {
   border-collapse: collapse;
   width: 100%;
   text-align: center;
@@ -18,11 +11,4 @@
   border: 1px solid grey;
   background: lightblue;
   text-align: center;
-}
-.title:nth-child(odd) {
-  background: white;
-  padding: 40px;
-}
-.title:nth-child(even) {
-  background: lightgrey;
 }
