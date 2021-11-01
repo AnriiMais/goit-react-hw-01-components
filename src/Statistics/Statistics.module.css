@@ -1,0 +1,23 @@
+.statistics {
+  padding: 40px 0;
+
+  margin: 0 auto;
+}
+.title {
+  color: blueviolet;
+  margin: 0 auto;
+  max-width: 200px;
+}
+.statList {
+  display: flex;
+
+  margin: 0 auto;
+}
+.item {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+.item + .item {
+  margin-left: 20px;
+}
