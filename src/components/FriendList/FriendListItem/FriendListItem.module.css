@@ -24,9 +24,11 @@
 }
 .offline {
   composes: status;
-  background-color: red;
+  background-image: radial-gradient(red, white);
+  box-shadow: 0 0 15px red;
 }
 .online {
   composes: status;
-  background-color: green;
+  background-image: radial-gradient(green, white);
+  box-shadow: 0 0 15px green;
 }
